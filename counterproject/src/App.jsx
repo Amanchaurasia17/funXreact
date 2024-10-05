@@ -14,11 +14,13 @@ function App() {
   // let counter = 5;
 
   const addValue = ()=>{
-  
   // counter = counter + 1;
    console.log("clicked", counter);
-
    letCounter(counter+1);
+  }
+
+  const removeValue =()=>{
+    letCounter(counter -1);
   }
 
   return (
@@ -28,7 +30,10 @@ function App() {
 
      <button onClick={addValue}>Add value</button>
      <br />
-     <button>Remove value</button>
+     <button
+     onClick={removeValue}
+     
+     >Remove value</button>
     </>
   )
 }
