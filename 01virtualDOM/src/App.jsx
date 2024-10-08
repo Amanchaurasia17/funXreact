@@ -15,7 +15,7 @@ function App() {
     <h2 className='bg-green-400 text-black text-4xl'>Tailwind test!!!</h2>
 <br />
 <br />
-<Card username= "Hitesh"   btntext ="Instagram"  />
+<Card username= "Hitesh"     />
 <br />
 <Card username="AMAN"  btntext ="Know More!"/>
 <br />
