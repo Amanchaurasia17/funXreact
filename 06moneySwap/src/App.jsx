@@ -4,32 +4,32 @@ import useCurrencyInfo from './hooks/useCurrencyInfo'
 
 
 function App() {
+
   const [amount, setAmount] = useState(0)
   const [from, setFrom] = useState("usd")
   const [to, setTo] = useState("inr")
   const [convertedAmount, setConvertedAmount] = useState(0)
 
   const currencyInfo = useCurrencyInfo(from)
-  const option = Object.keys(currencyInfo)
 
-  const swap =()=>{
+  const options = Object.keys(currencyInfo)
 
+  const swap = () => {
     setFrom(to)
     setTo(from)
     setConvertedAmount(amount)
     setAmount(convertedAmount)
   }
-
-  const convert = () =>{
+  
+  const convert = () => {
     setConvertedAmount(amount * currencyInfo[to])
   }
+
   return (
-    <>
-   
     <div
         className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
         style={{
-            backgroundImage: `url('https://images.pexels.com/photos/27068604/pexels-photo-27068604/free-photo-of-skyscrapers-in-manhattan-in-new-york.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`,
+            backgroundImage: `url('https://images.pexels.com/photos/14689440/pexels-photo-14689440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`,
         }}
     >
         <div className="w-full">
@@ -77,12 +77,8 @@ function App() {
             </div>
         </div>
     </div>
-    </>
 );
-
 }
 
 export default App
-
-
 

@@ -50,4 +50,4 @@ function InputBox({
     );
 }
 
-export default InputBox;ut
+export default InputBox;
