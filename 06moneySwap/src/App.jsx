@@ -29,7 +29,7 @@ function App() {
     <div
         className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
         style={{
-            backgroundImage: `url('https://images.pexels.com/photos/14689440/pexels-photo-14689440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`,
+            backgroundImage: `url('https://media.istockphoto.com/id/2058305199/photo/embrace-the-warm-hues-of-sunset-in-mykonos-town-chora.jpg?s=2048x2048&w=is&k=20&c=_oqhKHRUPeM898uSSvbkRFGLaXJuUIp5qNfsgkEnZT8=')`,
         }}
     >
         <div className="w-full">
