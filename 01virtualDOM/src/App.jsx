@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-    <h2 className='bg-green-400 text-black text-4xl'>Tailwind test!!!</h2>
+    <h2 className='bg-green-400 text-black text-4xl'>card via tailwind</h2>
 <br />
 <br />
 <Card username= "Hitesh"     />
