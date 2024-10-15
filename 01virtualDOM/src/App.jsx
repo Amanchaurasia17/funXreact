@@ -20,6 +20,8 @@ function App() {
 <Card username="AMAN"  btntext ="Know More!"/>
 <br />
 <Card username="Ravi"   btntext ="LinkedIin" />
+<br />
+<Card username="Vikram"   btntext ="LinkedIin" />
 
     </>
        
